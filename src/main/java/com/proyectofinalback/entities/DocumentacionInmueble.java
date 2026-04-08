@@ -22,7 +22,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor 
 @Builder
 public class DocumentacionInmueble {
-
+  
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   @Column(name = "id_doc")
