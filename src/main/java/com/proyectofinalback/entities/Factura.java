@@ -1,10 +1,7 @@
-package main.java.com.proyectofinalback.entities;
+package com.proyectofinalback.entities;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
-
-import com.example.tecnocasa.entity.Inmueble;
-import com.example.tecnocasa.entity.Usuario;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

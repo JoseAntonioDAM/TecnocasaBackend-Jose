@@ -1,4 +1,4 @@
-package com.example.tecnocasa.entity;
+package com.proyectofinalback.entities;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

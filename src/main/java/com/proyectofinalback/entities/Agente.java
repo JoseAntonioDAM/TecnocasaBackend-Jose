@@ -1,6 +1,6 @@
-package main.java.com.proyectofinalback.entities;
+package com.proyectofinalback.entities;
 
-import com.example.tecnocasa.entity.Usuario;
+
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

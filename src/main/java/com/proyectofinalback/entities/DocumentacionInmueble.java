@@ -1,4 +1,4 @@
-package com.example.tecnocasa.entity;
+package com.proyectofinalback.entities;
 
 import java.time.LocalDate;
 
