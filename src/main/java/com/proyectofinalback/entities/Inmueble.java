@@ -61,4 +61,12 @@ public class Inmueble {
   @OneToMany(mappedBy = "inmueble", cascade = CascadeType.ALL, orphanRemoval = true)
   @Builder.Default
   private List<Factura> facturas = new ArrayList<>();
+
+  
+  @Column(columnDefinition = "TEXT")
+  private String descripcion; 
+
+  @ManyToOne
+  @JoinColumn(name = "id_agente")
+  private Agente agente; 
 }

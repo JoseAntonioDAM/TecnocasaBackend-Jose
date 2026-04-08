@@ -32,4 +32,10 @@ public class Ubicacion {
 
   @Column(name = "pais", nullable = false, length = 80)
   private String pais;
+
+  @Column(length = 500)
+  private String googleMapsUrl; 
+
+  @Column(length = 50)
+  private String municipio;
 }
