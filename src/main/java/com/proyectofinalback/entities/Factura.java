@@ -1,14 +1,30 @@
-package com.example.tecnocasa.entity;
-
-import jakarta.persistence.*;
-import lombok.*;
+package main.java.com.proyectofinalback.entities;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
+import com.example.tecnocasa.entity.Inmueble;
+import com.example.tecnocasa.entity.Usuario;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 @Entity
 @Table(name = "factura")
-@Getter @Setter @NoArgsConstructor @AllArgsConstructor @Builder
+@Data
+@NoArgsConstructor 
+@AllArgsConstructor 
+@Builder
 public class Factura {
 
   @Id
